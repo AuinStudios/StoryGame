@@ -85,7 +85,7 @@ public class CharController : MonoBehaviour
         Player.Move(VerticalAndHorizontal * MovementSpeed * Time.deltaTime);
 
         // Check If Player is Grounded ---------------------------------------------------------------------------------------------------------------
-        IsGrounded = Physics.CheckSphere(SpherePos.position, 0.5f, Ground, QueryTriggerInteraction.Ignore);
+        IsGrounded = Physics.CheckSphere(SpherePos.position, 0.4f, Ground, QueryTriggerInteraction.Ignore);
 
         if (!IsGrounded)
         {

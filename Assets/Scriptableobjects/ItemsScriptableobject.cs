@@ -7,7 +7,7 @@ public class ItemsScriptableobject : ScriptableObject
 
     public string ItemName;
 
-
+    public bool IsActive = true;
 
     public Sprite ItemIcon;
 

@@ -44,6 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aff8ae378fc19674c88479d8acf90c27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  items: []
+  m_Raycaster: {fileID: 0}
+  m_EventSystem: {fileID: 0}
   invui: {fileID: 0}
+  WeaponHolder: {fileID: 0}
+  Player: {fileID: 0}
   slots: []
+  items: 

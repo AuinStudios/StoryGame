@@ -27,7 +27,7 @@ public class ItemEditor : Editor
             itemsScriptableobject.damage = EditorGUILayout.IntSlider("Damage", itemsScriptableobject.damage, 0, 10);
         }
 
-
+        serializedObject.ApplyModifiedProperties();
     }
     void GUILine()
     {
