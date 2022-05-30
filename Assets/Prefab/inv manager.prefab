@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Raycaster: {fileID: 0}
   m_EventSystem: {fileID: 0}
   invui: {fileID: 0}
+  OpenAndCloseInvUi: {fileID: 0}
   WeaponHolder: {fileID: 0}
   Player: {fileID: 0}
   slots: []

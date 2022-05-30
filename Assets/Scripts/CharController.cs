@@ -26,7 +26,7 @@ public class CharController : MonoBehaviour
     private float MouseSenstivity = 3;
     private float VerticalMovement = 0;
     private float HorizontalMovement = 0;
-    private float VerticalMouse = 0;
+    private float VerticalMouse = 180;
     private float HorizontalMouse = 0;
     private float GravityMutlplier = 20;
     // private float MaxSpeed = 20;
@@ -76,7 +76,7 @@ public class CharController : MonoBehaviour
 
 
         // rotate camera -----------------------------------------------------------------------------------------------------------------
-        PlayerCamera.rotation = Quaternion.Euler(HorizontalMouse, VerticalMouse, 0);
+        PlayerCamera.rotation = Quaternion.Euler( HorizontalMouse, VerticalMouse, 0);
         Ori.rotation = Quaternion.Euler(0, VerticalMouse, 0);
         // Clamp  ---------------------------------------------------------------------------------------
         HorizontalMouse = Mathf.Clamp(HorizontalMouse, -80, 80);
