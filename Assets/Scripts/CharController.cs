@@ -58,7 +58,7 @@ public class CharController : MonoBehaviour
         HorizontalMouse -= Mouse_Y;
         VerticalMouse += Mouse_X;
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             //MaxSpeed = 10;
             MovementSpeed = 10f;
@@ -68,7 +68,7 @@ public class CharController : MonoBehaviour
             // MaxSpeed = 5;
             MovementSpeed = 5f;
         }
-
+        
         // Movement -------------------------------------------------------------------------------------------
 
         VerticalAndHorizontal = PlayerCamera.right * HorizontalMovement + Ori.forward * VerticalMovement;

@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    [Header("GameObjects")]
     [SerializeField]
     private GameObject SetSettingsOn;
     [SerializeField]
     private GameObject SetMainMenuOff;
+    [Header("Transforms")]
     [SerializeField]
     private Transform Cam;
     [SerializeField]
